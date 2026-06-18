@@ -1,0 +1,39 @@
+{
+  "id": "com.allinone.nuvio.minimal",
+  "name": "All-in-One Nuvio (Minimal Stable)",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "description": "Stable minimal pack for Nuvio compatibility",
+  "scrapers": [
+    {
+      "id": "allanime",
+      "name": "AllAnime",
+      "enabled": true,
+      "filename": "providers/allanime.js"
+    },
+    {
+      "id": "animepahe",
+      "name": "AnimePahe",
+      "enabled": true,
+      "filename": "providers/animepahe.js"
+    },
+    {
+      "id": "hianime",
+      "name": "HiAnime",
+      "enabled": true,
+      "filename": "providers/hianime.js"
+    },
+    {
+      "id": "vidsrc",
+      "name": "VidSrc",
+      "enabled": true,
+      "filename": "providers/vidsrc.js"
+    },
+    {
+      "id": "cineby",
+      "name": "Cineby",
+      "enabled": true,
+      "filename": "providers/cineby.js"
+    }
+  ]
+}
